@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     },
   },
   title:
-    "Free Invoice Maker",
+    "Invoice Maker",
   description:
     "Simplify Your Billing: Create, Send, and Get Paid Quickly.",
   keywords: [
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   robots: "index, follow",
   openGraph: {
     title:
-      "Free Invoice Generator",
+      "Invoice Maker",
     description:
       "Simplify Your Billing – Create, Send, and Get Paid Quickly.",
     url: process.env.NEXT_PUBLIC_URL,
