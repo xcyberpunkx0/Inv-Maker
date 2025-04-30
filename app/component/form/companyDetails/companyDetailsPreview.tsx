@@ -39,7 +39,7 @@ export const CompanyDetailsPreview: React.FC<CompanyDetails> = ({
       {companyAddress ? (
         <p>{companyAddress}</p>
       ) : (
-        <div className="rounded-md bg-neutral-100 h-4 w-3/6 animate-pulse my-2" />
+        <div className="rounded-md bg-purple-100 h-4 w-3/6 animate-pulse my-2" />
       )}
       {companyAddress || companyState || companyZip ? (
         <p className="mb-0.5">

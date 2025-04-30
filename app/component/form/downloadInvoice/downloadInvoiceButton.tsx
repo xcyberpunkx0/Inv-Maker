@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Document, Font, Page } from "@react-pdf/renderer";
-import { CheckCircle2, Download, LoaderIcon, SplineIcon } from "lucide-react";
+import { CheckCircle2, Download, LoaderIcon } from "lucide-react";
 import { PdfDetails } from "../pdfDetails";
 import { useData } from "@/app/hooks/useData";
 import { pdfContainers } from "@/lib/pdfStyles";

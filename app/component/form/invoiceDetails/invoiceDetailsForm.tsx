@@ -51,7 +51,7 @@ export const InvoiceDetailsForm = () => {
                         type="button"
                         className="flex-shrink-0 rounded-md p-1.5 group-hover:bg-gray-50 hidden group-hover:block"
                       >
-                        <Trash2 className="w-4 text-gray-500 h-4 group-hover:text-red-400" />
+                        <Trash2 className="w-4 text-gray-500 h-4 group-hover:text-blue-400" />
                       </button>
                     </div>
                     <div className="w-full flex-1">
@@ -141,7 +141,7 @@ export const InvoiceDetailsForm = () => {
                     onChange([...value, { itemDescription: "" }]);
                   }}
                   type="button"
-                  className="flex justify-center items-center text-orange-500 font-medium text-sm gap-2"
+                  className="flex justify-center items-center text-purple-500 font-medium text-sm gap-2"
                 >
                   <Plus className="w-4 h-4" />
                   <p>Add Item</p>

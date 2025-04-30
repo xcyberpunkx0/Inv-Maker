@@ -7,7 +7,7 @@ export const CompanyDetailsForm = () => (
     <p className="text-2xl font-semibold pb-3">Company Details (To)</p>
     <CustomTextInput
       label="Email"
-      placeholder="e.g. pranav@prolab.sh"
+      placeholder="e.g. adityagup1a@gmail.com"
       variableName="email"
     />
     <p className="pb-10 pt-3 text-xs font-medium text-neutral-500">
@@ -16,13 +16,13 @@ export const CompanyDetailsForm = () => (
     <p className="pb-2 text-sm font-medium text-neutral-500">Billing details</p>
     <CustomTextInput
       label="Company name"
-      placeholder="Prolab Inc"
+      placeholder="e.g. Aditya Tech"
       variableName="companyName"
     />
     <ImageInput label="Logo" variableName="companyLogo" />
     <CustomTextInput
       label="Address"
-      placeholder="Whitefield Circle,12"
+      placeholder="Whitefield"
       variableName="companyAddress"
     />
     <CustomTextInput
@@ -37,7 +37,7 @@ export const CompanyDetailsForm = () => (
     />
     <CustomNumberInput
       label="Zip"
-      placeholder="560066"
+      placeholder="560071"
       variableName="companyZip"
     />
     <CustomTextInput
