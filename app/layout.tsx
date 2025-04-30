@@ -18,11 +18,11 @@ export const metadata: Metadata = {
     },
   },
   title:
-    "Free Invoice Generator: Create & Send Professional Invoices in Minutes",
+    "Free Invoice Maker",
   description:
-    "Get paid on time with our free invoice maker. Create professional invoices & get them to clients instantly.",
+    "Simplify Your Billing: Create, Send, and Get Paid Quickly.",
   keywords: [
-    "invoice generator",
+    "invoice maker",
     "free invoice template",
     "invoice maker",
     "online invoice",
@@ -31,18 +31,18 @@ export const metadata: Metadata = {
   robots: "index, follow",
   openGraph: {
     title:
-      "Free Invoice Generator: Create & Send Professional Invoices in Minutes",
+      "Free Invoice Generator",
     description:
-      "Get paid on time with our free invoice maker. Create professional invoices & get them to clients instantly.",
+      "Simplify Your Billing – Create, Send, and Get Paid Quickly.",
     url: process.env.NEXT_PUBLIC_URL,
     type: "website",
-    images: "/og-image.jpeg",
-    siteName: "Invoice Generator",
+    images: "/og-image.jpeg", // add image here if needed
+    siteName: "Invoice Maker",
   },
   twitter: {
     card: "summary_large_image",
-    site: "@ThatsPranav",
-    creator: "@ThatsPranav",
+    site: "@adityagup1a",
+    creator: "@adityagup1a",
   },
 };
 
