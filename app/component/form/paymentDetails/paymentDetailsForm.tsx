@@ -11,12 +11,12 @@ export const PaymentDetailsForm = () => (
     />
     <CustomTextInput
       label="Account number"
-      placeholder="8920804195"
+      placeholder="3232123455"
       variableName="accountNumber"
     />
     <CustomTextInput
       label="Account Name"
-      placeholder="Pranav"
+      placeholder="Aditya"
       variableName="accountName"
     />
     <CustomTextInput
@@ -26,7 +26,7 @@ export const PaymentDetailsForm = () => (
     />
     <CustomTextInput
       label="Routing number"
-      placeholder="0804189592"
+      placeholder="082323232"
       variableName="routingCode"
     />
     <CustomNumberInput
